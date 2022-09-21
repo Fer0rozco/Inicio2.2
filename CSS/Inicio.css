@@ -3,6 +3,8 @@ body{
         background-color: #FBF7F3;
         margin-top: 20px;
     }
+
+
     
     nav {
       background-color: #304a65;
@@ -25,6 +27,65 @@ body{
     .container-fluid{
       background-color: #304A65;
     }
+
+    .reactionsContainer{
+        display: flex;
+        text-align: center;
+        background-color: #a56072;
+        border-radius: 20px;
+        max-height: 15%;
+    }
+
+
+    .reactionButton {
+        background-color: #a56072;
+        border: none;
+        margin: 1vh;
+        width: 32%;
+    }
+    
+    .reactionButton :hover {
+        background-color: #304a65;
+        border-radius: 50%;
+    }
+    
+    .reactionButton button {
+        background-color: #a56072;
+        border: none;
+        padding: 0;
+        margin: 0%;
+    }
+
+    #like:hover {
+        color: red;
+        width: 2rem;
+        height: auto;
+    }
+    
+    #dislike:hover {
+        color: gray;
+        width: 2rem;
+        height: auto;
+    }
+    
+    #comment:hover {
+        color: green;
+        width: 2rem;
+        height: auto;
+    }
+
+    /* .text-certification{
+        visibility: hidden;
+        opacity: 0;
+        position: absolute;
+        left: -50%;
+    }
+
+    .text-certification:hover .lock1 {
+        visibility: visible;
+        opacity: 1;
+        top: -130%;
+    } */
 
     .row.heading h2 {
         color: #fff;
